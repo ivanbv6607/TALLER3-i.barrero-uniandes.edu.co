@@ -25,7 +25,7 @@ class Boa_constrictor(Animal_exotico):
             return "!Tsss!"
     
     def sumar_ratones_comidos(self):
-        if self._ratones_comidos > 10:
+        if self._ratones_comidos > 20:
             raise ValueError ("Demasiados Ratones")
         self._ratones_comidos += 11
     
